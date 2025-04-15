@@ -82,7 +82,7 @@
 	<!-- 编辑器源码文件 -->
 	<script type="text/javascript" src="ueditor.all.js"></script>
 	<!-- 链接manifest文件 -->
-	<link rel="manifest" href="../manifest.json">
+	<link rel="manifest" href="manifest.json">
 	<!-- <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Forum&family=Fira+Sans&family=Pacifico&family=Bangers&display=swap" rel="stylesheet"> -->
 </head>
 <body>
@@ -338,7 +338,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('../service-worker.js')
+                navigator.serviceWorker.register('service-worker.js')
                     .then(registration => {
                         console.log('Service Worker registered with scope:', registration.scope)
                     })
