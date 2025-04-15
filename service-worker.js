@@ -1,6 +1,6 @@
 const cacheName = 'my-pwa-cache-v1';
 const staticAssets = [
-  './docs/index.html',
+  './index.html',
   './manifest.json'
 ];
 
